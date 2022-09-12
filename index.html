@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hayao Miyasaki Web</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./style/style.css">
+    <title>Hayao Miyasaki Web</title>
 </head>
 <body class="body1">
     <header>
@@ -22,7 +23,7 @@
                 <a class="item-menu" href="./paginas/soundstrack.html">Soundtrack</a></li>                            
             </nav>                                
     </header>
-    <div class="portada">
+    <div data-aos="fade-up" data-aos-duration="3000" class="portada">
         <img class="img-portada" src="./imagenes/img-index.jpg" width="">
     </div>
     <section>
@@ -40,5 +41,9 @@
             <li><a href="index.html">Inicio</a> </li>              
          </ul>        
     </footer> 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>

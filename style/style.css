@@ -12,7 +12,7 @@
 }
 a {
     text-decoration: none;
-    color: rgb(188, 39, 201);
+    color: rgb(202, 39, 39);
 }
 
 header {
@@ -21,11 +21,11 @@ header {
     min-height: 125px;
     align-items: center;
     padding: 10px;
-    background-image: url(../imagenes/posible-fondo-header.jpg);
+    background-color: rgb(174, 136, 210);
 }
 .titulo-header{
     align-items: center;
-    color: aqua;
+    color: rgb(0, 247, 255);
     padding: 5px;
     margin-top: 10px;
 }
