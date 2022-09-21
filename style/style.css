@@ -1,527 +1,534 @@
-
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-.body1 {
-    background-image: url(../imagenes/posible-fondo-index.jpg);
-    background-attachment: fixed;
-    background-size: 100%;
-    
-}
-a {
-    text-decoration: none;
-    color: rgb(188, 39, 201);
-}
-/* header */
-.container-nav{
-    background-color: rgb(231, 179, 235);
-}
-.navbar-collapse{
-    justify-content: end;
-    margin-right: 40px;
-}
-
-.nav-link{
-    color: rgb(50, 109, 172);
-    font-size: 30px;
-    font-weight: 700;
-}
-
-.img-nav-img {
-    height: 120px;
-    border-radius: 10%;
-}
-.navbar-brand{
-    font-size: 35px;
-    color: rgb(50, 109, 172);
-    font-weight: 700;
-
-}
-.portada {
-    display: flex;
-    justify-content: center;   
-}
-.img-portada{
-    width: 700px;
-    margin-top: 20px;
-}
-
-.texto-portada {
-    display: flex;
-    text-align: center;
-    margin: 40px;
-    margin-left: 150px;
-    margin-right: 150px;
-    text-size-adjust: 130px;
-    font-size: 20px;
-    
-}
-footer {
-    background-color: rgb(231, 179, 235);
-    
-}
-
-footer ul {
-    margin-bottom: 0px;
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
-    color: rgb(50, 109, 172);
-    font-size: 15px;   
-}
-.item-footer{
-    margin-top: 50px;
-}
-
-
-.footer-img{
-    height: 120px;
-    border-radius: 10%;
-}
-.img-footer-li{
-    margin: 7px;
-}
-
-
-/* filmografia  */
-
-.body-filmografia {
-    background-image: url(../imagenes/posible-imagen-filmografia-2.jpg);
-    background-attachment: fixed;
-    background-size: 100%;
-}
-
-.caratulas {
-    display: flex;
-    margin: 30px;
-    justify-content: center;
-    flex-wrap: wrap;
-    
-}
-
-.caratula {
-    display: flex;
-    margin: 30px;
-    margin-right: 50px;
-    margin-left: 50px;
-    
-}
-.caratula-img{
-    width: 400px;
-}
-
-
-/* ca empieza pagina galeria */
-
 .body-galeria {
-    background-color: black;
+  background-color: black;
 }
 
 .container-galeria {
-    width: 100%;
-    max-width: 95%;
-    margin: auto;
-    margin-top: 50px;
-    margin-bottom: 60px;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    
-    grid-gap: 20px;
-    
-
+  width: 100%;
+  max-width: 95%;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 60px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
 }
 
 .container-galeria .box-galeria figure {
-    width: 100%;
-    height: 100%;
-
+  width: 100%;
+  height: 100%;
 }
 
 .img-gal {
-    width: 100%;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
+.p-gal {
+  color: rgb(255, 255, 255);
 }
 
 .container-galeria .box-galeria img {
-    width: 100%;
-    height: 100%;
-    object-fit: scale-down;
+  width: 100%;
+  height: 100%;
 }
 
 .container-galeria .box-galeria:nth-child(1) {
-    grid-column-start: span 1;   
+  grid-column-start: span 2;
 }
+
 .container-galeria .box-galeria:nth-child(5) {
-    grid-column-start: span 1;
+  grid-column-start: span 3;
 }
+
 .container-galeria .box-galeria:nth-child(6) {
-
-    grid-column-start: span 1;
+  grid-column-start: span 3;
 }
+
 .container-galeria .box-galeria:nth-child(8) {
-    grid-column-start: span 1;
+  grid-column-start: span 2;
 }
+
 .container-galeria .box-galeria:nth-child(9) {
-    grid-column-start: span 1;
+  grid-column-start: span 2;
 }
+
 .container-galeria .box-galeria:nth-child(10) {
-    grid-column-start: span 1;
+  grid-column-start: span 2;
 }
+
 .container-galeria .box-galeria:nth-child(11) {
-    grid-column-start: span 1;
+  grid-column-start: span 2;
 }
+
 .container-galeria .box-galeria:nth-child(14) {
-    grid-column-start: span 1;
+  grid-column-start: span 2;
 }
+
 .container-galeria .box-galeria:nth-child(16) {
-    grid-column-start: span 1;
+  grid-column-start: span 3;
 }
+
 .container-galeria .box-galeria:nth-child(17) {
-    grid-column-start: span 1;
+  grid-column-start: span 3;
 }
+
 .container-galeria .box-galeria:nth-child(19) {
-    grid-column-start: span 1;
+  grid-column-start: span 2;
 }
+
 .container-galeria .box-galeria:nth-child(20) {
-    grid-column-start: span 1;
+  grid-column-start: span 2;
 }
+
 .container-galeria .box-galeria:nth-child(21) {
-    grid-column-start: span 1;
+  grid-column-start: span 2;
 }
+
 .container-galeria .box-galeria:nth-child(22) {
-    grid-column-start: span 1;
+  grid-column-start: span 2;
 }
+
 .container-galeria .box-galeria:nth-child(23) {
-    grid-column-start: span 1;
+  grid-column-start: span 3;
 }
+
 .container-galeria .box-galeria:nth-child(27) {
-    grid-column-start: span 1;
-    
+  grid-column-start: span 2;
 }
+
 .container-galeria .box-galeria:nth-child(28) {
-    grid-column-start: span 1;
+  grid-column-start: span 2;
 }
+
 .container-galeria .box-galeria:nth-child(29) {
-    grid-column-start: span 1;
+  grid-column-start: span 2;
 }
+
 .container-galeria .box-galeria:nth-child(30) {
-    grid-column-start: span 1;
+  grid-column-start: span 2;
 }
+
 .container-galeria .box-galeria:nth-child(31) {
-    grid-column-start: span 1;
+  grid-column-start: span 2;
 }
+
 .container-galeria .box-galeria:nth-child(32) {
-    grid-column-start: span 1;
+  grid-column-start: span 2;
 }
+
 .container-galeria .box-galeria:nth-child(33) {
-    grid-column-start: span 1;
+  grid-column-start: span 2;
 }
+
 .container-galeria .box-galeria:nth-child(34) {
-    grid-column-start: span 1;
+  grid-column-start: span 3;
 }
+
+.container-galeria .box-galeria:nth-child(36) {
+  grid-column-start: span 2;
+}
+
 .container-galeria .box-galeria:nth-child(37) {
-    grid-column-start: span 1;
+  grid-column-start: span 2;
 }
+
 .container-galeria .box-galeria:nth-child(38) {
-    grid-column-start: span 1;
+  grid-column-start: span 2;
 }
+
 .container-galeria .box-galeria:nth-child(39) {
-    grid-column-start: span 1;
+  grid-column-start: span 2;
 }
+
+.container-galeria .box-galeria:nth-child(40) {
+  grid-column-start: span 1;
+}
+
 .container-galeria .box-galeria:nth-child(42) {
-    grid-column-start: span 1;
+  grid-column-start: span 2;
 }
+
 .container-galeria .box-galeria:nth-child(43) {
-    grid-column-start: span 1;
+  grid-column-start: span 2;
 }
+
 .container-galeria .box-galeria:nth-child(44) {
-    grid-column-start: span 1;
+  grid-column-start: span 2;
 }
+
 .container-galeria .box-galeria:nth-child(45) {
-    grid-column-start: span 1;
+  grid-column-start: span 2;
 }
+
 .container-galeria .box-galeria:nth-child(46) {
-    grid-column-start: span 1;
+  grid-column-start: span 2;
 }
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
+.body1 {
+  background-image: url(../imagenes/posible-fondo-index.jpg);
+  background-attachment: fixed;
+  background-size: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* header */
+header .container-nav {
+  background-color: rgb(231, 179, 235);
+}
+header .container-nav .img-nav-img {
+  height: 120px;
+  border-radius: 10%;
+}
+header .container-nav .navbar-brand {
+  font-size: 35px;
+  color: rgb(50, 109, 172);
+  font-weight: 700;
+}
+header .container-nav .navbar-collapse {
+  justify-content: end;
+  margin-right: 40px;
+}
+header .container-nav .navbar-collapse .nav-link {
+  color: rgb(50, 109, 172);
+  font-size: 30px;
+  font-weight: 700;
+}
+header .container-nav .navbar-collapse .nav-link:hover {
+  color: rgb(126, 158, 247);
+  font-size: 31px;
+  transition: 0.1s;
+}
+
+.portada {
+  display: flex;
+  justify-content: center;
+}
+
+.img-portada {
+  width: 700px;
+  margin-top: 20px;
+}
+
+.texto-portada {
+  display: flex;
+  text-align: center;
+  margin: 40px;
+  margin-left: 150px;
+  margin-right: 150px;
+  text-size-adjust: 130px;
+  font-size: 20px;
+  background-color: rgb(224, 157, 231);
+  border-radius: 7%;
+}
+
+footer {
+  background-color: rgb(231, 179, 235);
+}
+footer .footer-items {
+  margin-bottom: 0px;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  color: rgb(50, 109, 172);
+  font-size: 15px;
+}
+footer .footer-items .item-footer {
+  margin-top: 50px;
+}
+footer .footer-items i {
+  font-size: 25px;
+}
+footer .footer-items .footer-img {
+  height: 120px;
+  border-radius: 10%;
+}
+footer .footer-items .img-footer-li {
+  margin: 7px;
+}
+
+/* filmografia  */
+.body-filmografia {
+  background-image: url(../imagenes/posible-imagen-filmografia-2.jpg);
+  background-attachment: fixed;
+  background-size: 100%;
+}
+
+.caratulas {
+  display: flex;
+  margin: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.caratulas .caratula {
+  display: flex;
+  margin: 30px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+.caratulas .caratula-img {
+  width: 400px;
+}
+.caratulas .caratula-img:hover {
+  width: 407px;
+  transition: 0.2s;
+}
 
 /* biografia */
-
 .body-biografia {
-    background-image: url(../imagenes/posible-fondo-biografia-3.jpg);
-    background-size: 100%;
-    background-attachment: fixed;
+  background-image: url(../imagenes/posible-fondo-biografia-3.jpg);
+  background-size: 100%;
+  background-attachment: fixed;
 }
 
 .titulo-bio {
-    text-align: center;
-    font-size: 50px;
-    color: blue;
-    margin: 20px;
+  text-align: center;
+  font-size: 50px;
+  color: blue;
+  margin: 20px;
 }
 
 .bio {
-    font-size: 30px;
-    margin: 40px;
+  font-size: 30px;
+  margin: 40px;
 }
 
 .biografia {
-    width: 100%;
-    margin: auto;
-    
+  width: 100%;
+  margin: auto;
+}
+.biografia .img-bio {
+  margin: 40px;
+  width: 700px;
+  float: left;
+}
+.biografia .texto-bio-miyasaki {
+  font-size: 20px;
+  margin-left: 30px;
 }
 
-.img-bio {
-    margin: 40px;
-    width: 700px;
-    float: left;
+.documentales-miyasaki-container .titulo-documentales {
+  margin-top: 70px;
+  margin-bottom: 40px;
+  margin-left: 30px;
 }
-
-.texto-bio-miyasaki {
-    font-size: 20px;
-    margin-left: 30px;
+.documentales-miyasaki-container .doc-y-ent {
+  display: flex;
+  justify-content: space-evenly;
 }
-
-.documentales-miyasaki-container {
-    
-   
-
+.documentales-miyasaki-container .doc-y-ent .proceso-creativo {
+  flex-direction: column;
 }
-
-.titulo-documentales {
-    margin-top: 70px;
-    margin-bottom: 40px;
-    margin-left: 30px;
-     
+.documentales-miyasaki-container .doc-y-ent .tit-proceso-creativo {
+  margin-left: 50px;
+  margin-top: 0px;
 }
-
-.doc-y-ent {
-    display: flex;
-    justify-content: space-evenly;
-   
+.documentales-miyasaki-container .doc-y-ent .video-proceso {
+  margin: 30px;
 }
-
-.proceso-creativo {
- 
-    flex-direction: column;
-    
-}
-
-.tit-proceso-creativo {
-    margin-left: 50px;
-    margin-top: 0px;
-    
-    
-}
-
-.video-proceso {
-    margin: 30px;
-    
-    
-}
-
 
 /* aca empieza pagina soundtrack */
-
 .joe-hisaishi {
-    text-align: center;
-    margin: 20px;
-    margin-bottom: 40px;
-    color: blue;
-    font-size: 50px;
+  text-align: center;
+  margin: 20px;
+  margin-bottom: 40px;
+  color: blue;
+  font-size: 50px;
 }
- 
-/* nausica */
 
+/* nausica */
 .nausica-body {
-    background-image: url(../imagenes/fondo-nausica.jpg);
-    background-attachment: fixed;
+  background-image: url(../imagenes/fondo-nausica.jpg);
+  background-attachment: fixed;
 }
 
 .titulo-pelicula {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 70px;
-    text-align: center;
-    margin-bottom: 70px;
-    margin-top: 40px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 70px;
+  text-align: center;
+  margin-bottom: 70px;
+  margin-top: 40px;
 }
 
-.img-text-pelicula{
-    width: 500px;
-    margin: 25px;
+.img-text-pelicula {
+  width: 500px;
+  margin: 25px;
+  float: left;
 }
 
 .argumento-pelicula {
-    font-size: 35px;
-    margin-top: 25px;
-    margin-left: 30px;
+  font-size: 35px;
+  margin-top: 25px;
+  margin-left: 30px;
 }
 
 .texto-nausica {
-    font-size: 25px;
-    font-family: 'Times New Roman', Times, serif;
-    color: rgb(0, 0, 0);
-    margin-left: 20px;
-    display: inline-block;
+  font-size: 25px;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(0, 0, 0);
+  margin-left: 20px;
 }
 
-.info-general{
-    text-align: center;
-    margin-top: 40px;
-    font-size: 30px;
+.info-general {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 30px;
 }
 
 .img-info-general {
-    text-align: center;
-    margin-top: 30px;
+  text-align: center;
+  margin-top: 30px;
 }
-.img-info{
-    width: 500px;
-}
-.lista-info{
-    list-style: none;
-}
-.list-info-general {
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-    
+
+.img-info {
+  width: 500px;
 }
 
 .lista-info {
-    
+  list-style: none;
 }
 
-.titulos-trailers {
-    margin: 50px;
-    font-size: 30px;
+.list-info-general {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+
+.lista-info .titulos-trailers {
+  margin: 50px;
+  font-size: 30px;
 }
 
 .trailers-videos {
-    text-align: center;
-}
-.trailer{
-    width: 800px;
-    height: 415px;
+  text-align: center;
 }
 
+.trailer {
+  width: 800px;
+  height: 415px;
+}
 
 /* howl */
-
 .howl-body {
-    background-image: url(../imagenes/fondo-howl.jpg);
-    background-attachment: fixed;
+  background-image: url(../imagenes/fondo-howl.jpg);
+  background-attachment: fixed;
 }
 
 /* chihiro */
-
 .chihiro-body {
-    background-image: url(../imagenes/fondo-chihiro-2.jpg);
-    background-attachment: fixed;
-    background-size: 100%;
+  background-image: url(../imagenes/fondo-chihiro-2.jpg);
+  background-attachment: fixed;
+  background-size: 100%;
 }
 
 /* castle in the sky */
-
 .laputa-body {
-    background-image: url(../imagenes/fondo-laputa.jpg);
-    background-attachment: fixed;
-    background-size: 100%;
+  background-image: url(../imagenes/fondo-laputa.jpg);
+  background-attachment: fixed;
+  background-size: 100%;
 }
 
 /* media queries */
-
 @media only screen and (max-width: 576px) {
-
-    .body1{
-        background-image: url(../imagenes/fondo-index-mobile.jpg);
-        background-attachment: fixed;
-    }
-
-    /* header */
-    .navbar-brand{
-        flex-direction: column;
-        font-size: 17px;
-    }
-    .img-portada{
-        width: 80%;
-    }
-    .img-nav-img{
-        width: 150px;
-        height: auto;
-    }
-    /* footer */
-    .footer-img{
-        width: 130px;
-        height: auto;
-        margin-top: 18px;
-    }
-
-
-    /* filmografia */
-
-    .caratula-img{
-        width: 140px;
-    }
-
-    /* galeria */
-
-    .container-galeria {
-        grid-template-columns: repeat(1, 1fr);
-        
-    }
-
-    /* biografia */
-
-    .titulo-bio{
-        font-size: 30px;
-    }
-    .bio{
-        font-size: 25px;
-    }
-
-    .biografia img{
-        width: 490px;
-    }
-    .texto-bio-miyasaki{
-        margin-right: 30px;
-        font-size: 18px;
-    }
-    .doc-y-ent{
-        flex-direction: column;
-    }
-    .video-proceso{
-        width: 400px;
-        height: 250px;
-    }
-
-
-    /* nausicaa */
-
-    .titulo-pelicula{
-        font-size: 40px;
-    }
-    .img-text-pelicula{
-        width: 100px;
-    }
-    .img-info{
-        width: 300px;
-    }
-    .trailer{
-        width: 450px;
-        height: 250px;
-    }
-
-
+  .body1 {
+    background-image: url(../imagenes/fondo-index-mobile.jpg);
+    background-attachment: fixed;
+  }
+  /* header/index */
+  header .container-nav .img-nav-img {
+    width: 125px;
+    height: 70px;
+    border-radius: 10%;
+  }
+  header .container-nav .navbar-brand {
+    font-size: 25px;
+  }
+  .img-portada {
+    width: 400px;
+    border-radius: 7%;
+  }
+  /* footer */
+  footer .footer-items {
+    font-size: 15px;
+  }
+  footer .footer-items .item-footer {
+    margin-top: 30px;
+  }
+  footer .footer-items i {
+    font-size: 15px;
+  }
+  footer .footer-items .footer-img {
+    width: 125px;
+    height: 70px;
+    border-radius: 10%;
+  }
+  footer .footer-items .img-footer-li {
+    margin: 7px;
+  }
+  /* filmografia */
+  .caratula-img {
+    width: 140px;
+  }
+  /* galeria */
+  /* biografia */
+  .body-biografia {
+    background-color: aqua;
+  }
+  .titulo-bio {
+    font-size: 30px;
+  }
+  .bio {
+    font-size: 25px;
+  }
+  .biografia .img-bio {
+    width: 400px;
+  }
+  .biografia .texto-bio-miyasaki {
+    margin-right: 30px;
+    font-size: 21px;
+  }
+  .documentales-miyasaki-container .titulo-documentales {
+    margin-top: 70px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+  }
+  .documentales-miyasaki-container .doc-y-ent {
+    flex-direction: column;
+  }
+  .documentales-miyasaki-container .doc-y-ent .proceso-creativo {
+    flex-direction: column;
+  }
+  .documentales-miyasaki-container .doc-y-ent .tit-proceso-creativo {
+    margin-left: 50px;
+    margin-top: 0px;
+  }
+  .documentales-miyasaki-container .doc-y-ent .video-proceso {
+    width: 400px;
+    height: 250px;
+  }
+  /* nausicaa */
+  .titulo-pelicula {
+    font-size: 40px;
+  }
+  .img-text-pelicula {
+    width: 150px;
+  }
+  .img-info {
+    width: 300px;
+  }
+  .trailer {
+    width: 450px;
+    height: 250px;
+  }
 }
 
-
-
-
-
-
-
+/*# sourceMappingURL=style.css.map */
