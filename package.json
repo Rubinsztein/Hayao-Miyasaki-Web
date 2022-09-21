@@ -4,9 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+<<<<<<< HEAD
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-css": "sass scss/style.scss style/style.css",
      "watch-css": "nodemon -e scss -x \"npm run build-css\""
+=======
+
+    "test": "echo \"Error: no test specified\" && exit 1",
+
+    "build-css": "sass scss/style.scss style/style.css",
+
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+
+>>>>>>> 4947f0b825b1429dad03b4f33d05c7489dcdb3df
   },
   "repository": {
     "type": "git",
@@ -17,9 +27,13 @@
   "bugs": {
     "url": "https://github.com/Rubinsztein/Hayao-Miyasaki-Web/issues"
   },
+<<<<<<< HEAD
   "homepage": "https://github.com/Rubinsztein/Hayao-Miyasaki-Web#readme",
   "devDependencies": {
     "nodemon": "^2.0.20",
     "sass": "^1.54.9"
   }
+=======
+  "homepage": "https://github.com/Rubinsztein/Hayao-Miyasaki-Web#readme"
+>>>>>>> 4947f0b825b1429dad03b4f33d05c7489dcdb3df
 }
